@@ -19,7 +19,7 @@ export function Grid()
     const value = event.value
    console.log(String(value))
 
-  console.log("Hello")
+ 
         
     Axios.get('https://localhost:7107/api/Schema_/'+String(value)).then((response)=>{
       setcollDefs(response.data)
